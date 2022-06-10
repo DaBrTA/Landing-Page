@@ -1,0 +1,215 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* background colours  */
+
+.coloured-section {
+    background-color: #ff4c68;
+}
+
+.non-coloured-section {
+    background-color: white;
+}
+/* headings */
+
+.big-heading {
+    color: white;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    line-height: 2;
+    font-size: 300%;
+}
+
+
+/* navbar */
+
+.brand-title-font {
+    font-family: 'Ubuntu', sans-serif; ;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 1rem 0 1rem ;
+}
+
+/* download buttons */
+
+
+.download-btn {
+    margin: 40px 50px 0 0;
+}
+
+
+/********* title **********/
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.title-image {
+    width: 50%;
+    transform: rotate(16deg);
+    position: absolute;
+    right: 30%;
+}
+
+.img-pos{
+    position: relative;
+}
+
+
+
+/********* features section **********/
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.column-size{
+    margin: 50px 0;
+    padding: 5%;
+}
+
+
+#features col {
+    padding: 2rem;
+}
+
+#features p {
+    color: #8f8f8f
+}
+
+
+.icon-color {
+    color: rgb(255, 128, 128); 
+    padding-bottom: 50px;
+}
+
+.icon-color:hover {
+    color: #ff4c68; 
+    padding-bottom: 50px;
+}
+
+/*********** testimonial ***********/
+
+.testimonials-captions {
+    color: white;
+    font-size: 4rem;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+
+.testimonials-images {
+    width: 10%;
+    border-radius: 100%;
+    
+}
+
+.testimonials-credit {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+/********** press ***********/
+
+#press {
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.press-logo {
+    width: 15%;
+    margin:0 60px;
+}
+
+
+/********** Cards ***********/
+
+#pricing {
+    padding: 9% 15%;
+}
+
+
+#pricing h3 {
+    line-height: 2;
+    font-size: 150%;
+}
+
+
+#pricing p {
+    font-weight: bold;
+    color: #8f8f8f;
+}
+
+.pricing-cards {
+    padding:3% 2%;
+}
+
+#pricing .btn:hover{
+    background-color: white;
+    border: 1 black;
+    border-width: 2px;
+    color:black
+}
+
+/********** call to action ***********/
+
+#cta {
+    text-align: center;
+}
+
+
+/********** footer**********/
+
+#footer p {
+    font-weight: bold;
+    color: #8f8f8f;
+}
+
+.socials {
+    padding: 2% 2%;
+
+}
+
+
+@media (max-width: 1028px) {
+    
+    #title{
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        padding-top: 5%;
+    }
+
+}
